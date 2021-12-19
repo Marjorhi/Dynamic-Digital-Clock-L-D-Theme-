@@ -14,5 +14,6 @@ let section = document.querySelector("section"),
 
     let d;
     d = hour < 12 ? "AM" : "PM"; //if hour is smaller than 12, than its value will be AM else its value will be pm
-    
+    hour = hour > 12 ? hour - 12 : hour; //if hour value is greater than 12 than 12 will subtracted ( by doing this we will get value till 12 not 13,14 or 24 )
+
 }, 1000); // 1000 milliseconds = 1s
