@@ -26,7 +26,7 @@ section .container{
   height: 220px;
   max-width: 560px;
   width: 100%;
-  background: #fff;
+  background: rgb(255, 251, 254);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   position: relative;
